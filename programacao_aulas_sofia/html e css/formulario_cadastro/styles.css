@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #0083ca;
+}
+
+.login-form {
+  .create-account-title{
+    color: var(--primary-color);
+  }
+

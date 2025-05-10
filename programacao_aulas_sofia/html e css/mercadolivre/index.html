@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado livre</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .menu-wrapper{
+            background-color: #FFE625;
+            width: 100%;
+            height:90px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .menu-items-wrapper {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0px 10px;
+
+
+                .top-menu-wrapper{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+                    gap: 10px;
+                    width: 100%;
+
+                    .search-input{
+                        width: 500px;
+                        height: 35px;
+                        border-style: solid;
+                        border-color: rgba(0, 0, 0, 0);
+                        border-width: 1.5px;
+                        border-radius: 2px;
+                        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+                    }
+                }
+
+                .bottom-menu-wrapper{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+                    
+
+                    .info-center{
+                        display: flex;
+
+                    
+                    }
+                }
+            }
+
+
+                .nav-menu-cp-send{
+                color: #0000008C;
+                display: flex;
+                font-size: 12px;
+                
+            }
+
+                .nav-menu-cp-link{
+                color: #000000E5;
+                padding:2px;
+            }
+
+                .nav-link{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 14px
+            }
+
+                .info-center{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                font-size: 14px;                
+            }
+
+                .nav-link{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+            .offer-information{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .coupons-list{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .super-center{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .nav-style{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .nav-of-selling{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .nav-support{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .account{
+                display:flex;
+                gap: 15px;
+            }
+
+                .create-an-account{
+                text-decoration: none;
+                color: #000000E5;
+            }
+
+                .access-your-account{
+                text-decoration: none;
+                color: #000000E5;
+            }
+                .my-purchases{
+                text-decoration: none;
+                color: #000000E5;
+            }
+        }        
+        
+    </style>
+</head>
+
+<body>
+    <header class="menu-wrapper">
+        <div class="menu-items-wrapper">
+            <div class="top-menu-wrapper">
+                <img 
+                    src="../mercadolivre/mercadolivre.png"
+                    width="110"
+                />
+                <input class="search-input"     placeholder="Buscar produtos, marcas e muito mais"/>
+                <img
+                    src="../mercadolivre/assine.png"
+                    />
+            </div>
+            <div class="bottom-menu-wrapper">
+                <div class="cep-wrapper">
+                    <span class="nav-menu-cp-send">informe seu</span>
+                    <span class="nav-menu-cp-link">CEP</span>
+                </div>
+                <div class="info-center">
+                    <a
+                    href="https://www.mercadolivre.com.br/categorias#nav-header"
+                    class="nav-link"
+                    >
+                    <span>Categorias</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com.br/ofertas#nav-header"
+                    class="offer-information"
+                    >
+                    <span>Ofertas</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWNTYrDMAyF7-J1SfaBUpiLGMV5ScXIsZGVuqX07qMMdPm-9_cOUjbeo70qwhTwrMKJLVxCFbK1aI68uJHFUWPDV85nhJQyDNrC9D6HNiw_8NI5tZI0eIgOu8dVSnf2_-WMW8TTeztJ7JgfjNP9Nrbi4m5W2zSOvfchQxMtRfihGFLJw6xjOmrZ262VQxNipQ3XXKErS_hcfKpZNKX0GybTA58_4FbI5-gAAAA/user"
+                    class="coupons-list"
+                    >
+                    <span>Cupons</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com.br/ofertas/supermercado#nav-header"
+                    class="super-center"
+                    >
+                    <span>Supermercado</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com.br/c/calcados-roupas-e-bolsas#nav-header"
+                    class="nav-style"
+                    >
+                    <span>Moda</span>
+                    </a> 
+
+                    <a
+                    href="https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWOOw6DMAyG7-IZkZ2x16iqKAQDVh2CYtMUIe5eg9TRn__XAZwnWrzuK0IHgszQwMpBx1ySp8FgupCQ4v_sL0koIaFiEeiOK2TC4YFmumLGwIImCpvOfuRcjd09xkg8fs23BPYV-w-hfW9DA1M24ay6SudcrbVNWGIYMtOnYBtzavviZCcXrccxicLZWJuo1xLiGzotGzYwYGRa0MY_X-cPK_gDTeMAAAA/notregistered"
+                    class="nav-of-selling"
+                    >
+                    <span>Vender</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com.br/ajuda#nav-header"
+                    class="nav-support"
+                    >
+                    <span>Contato</span>
+                    </a>
+                </div>
+                <div class="account">
+                    <a
+                    href="https://www.mercadolivre.com.br/registration/marketplace/form#nav-header"
+                    class="create-an-account"
+                    >
+                    <span>Crie a sua conta </span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWNSw6DMAxE75J1gT3LXiRygoGoThPZpmmFuHudSl3Om9_pqGzp6fVT0c0O35VSTOpurhLoWjj7tJiRyZAkxb8MPQIMGRVZ3Hz2oQ2XO1qpT61AghaCQ3e_UmnGfl_Gknh8W-8J5BuGV8Lu_htbMbGrVpmnqbU2ZuQIS6H0YhxjyWPgKU4RqFMZuBwVZMAhFBIQd91sStQrQ3y4WfnA6wuowI1t6AAAAA/user"
+                    class="access-your-account"
+                    >
+                    <span>Entre</span>
+                    </a>
+
+                    <a
+                    href="https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWNSw6DMAxE75I1gj3LXiQywYBVh0S2oUWIu9dUYjlvfmfgMtMa7agY-oDfypTIQhMqg01FcqTRjcyOlAwfOdwREMhoKBr68x6acXyhl-6pCVjRQ7DZEicuH2f_L2ekEb_eW4HjB4ed8HafxlxcLGZV-67LB6RUttXajJJgLEy7YJtKbgdxN9ZN0gKK2jGphavxHbVoAukdepMNrx_8VfoB5QAAAA/user"
+                    class="my-purchases"
+                    >
+                    <span>Compras</span>
+                    </a>
+                </div>
+                </div>
+                </div>
+    </header>
+</body>
+</html>

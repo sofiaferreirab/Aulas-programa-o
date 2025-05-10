@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morena flor</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      p {
+        margin: 0px
+      }
+
+      .clothes {
+        display: flex;
+        gap: 10px;      
+      }
+
+      .clothing {
+        display: flex;
+        flex-direction: column;
+
+          .clothing-info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 5px;
+
+          .clothing-price {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+
+            .clothing-installment {
+              color: #75DA7C;
+            }
+          }
+        }
+
+        .actions-wrapper {
+          width: 250px;
+          display: flex;
+          gap: 5px;
+
+          .see-clothes-link {
+            background: #75DA7C;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            border-radius: 8px;
+          }
+
+          .buying-button {
+            background: #705538;
+            color: white;
+            border: none;
+            border-radius: 10px;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Morena flor</h1>
+    <h2>Lançamento</h2>
+
+    <div class="clothes">
+      <div class="clothing">
+        <img
+        src="./vestidos/vestido-branco-decote.jpeg"
+        width="250px"
+        height="370px"
+        />
+        <div class="clothing-info">
+          <p><strong>Vestido anny</strong></p>
+          <div class="clothing-price">
+            <p><strong>R$149,99</strong></p>
+            <p><strong>R$129,99</strong> no pix</p>
+            <p class="clothing-installment">3x de 43,33 sem juros</p>
+          </div>
+        </div>
+
+        <div class="actions-wrapper">
+          <a 
+            href="https://morenafloronline.com.br/produtos/short-saia-pregas/"
+            class="see-clothes-link"
+          >
+            <span>VER ROUPA</span>
+          </a>
+          <button class="buying-button">COMPRAR</button>
+        </div>
+      </div>
+      <div class="clothing">
+        <img
+        src="./vestidos/vestido-branco-decote.jpeg"
+        width="250px"
+        height="370px"
+        />
+        <div class="clothing-info">
+          <p><strong>Vestido anny</strong></p>
+          <div class="clothing-price">
+            <p><strong>R$149,99</strong></p>
+            <p><strong>R$129,99</strong> no pix</p>
+            <p class="clothing-installment">3x de 43,33 sem juros</p>
+          </div>
+        </div>
+      </div>
+      <div class="clothing">
+        <img
+        src="./vestidos/vestido-branco-decote.jpeg"
+        width="250px"
+        height="370px"
+        />
+        <div class="clothing-info">
+          <p><strong>Vestido anny</strong></p>
+          <div class="clothing-price">
+            <p><strong>R$149,99</strong></p>
+            <p><strong>R$129,99</strong> no pix</p>
+            <p class="clothing-installment">3x de 43,33 sem juros</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
