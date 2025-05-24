@@ -41,5 +41,5 @@ Você deve criar uma aplicação de linha de comando (CLI) para uma loja de roup
 ## Envie as alterações para o repositório do Github
 
 1. Adicione os arquivos ao repositório com o comando `git add .`;
-2. Faça um commit com o comando `git commit -m "Adicionando a tarefa de casa da loja de roupas CLI"`;
+2. Faça um commit com o comando `git commit -m "Criar aplicação CLI de loja de roupas"`;
 3. Envie as alterações para o repositório remoto com o comando `git push`.
