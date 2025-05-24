@@ -1,0 +1,32 @@
+const prompt = require('prompt-sync')();
+
+let nomedaroupa;
+let genero;
+let marca;
+let preco;
+let cor;
+let tamanho;
+let quantidade;
+let novaouusada;
+
+console.log("Bem-Vindo!  Cadastre a sua roupa!");
+console.log("\n");
+nomedaroupa = prompt("Cadastre sua roupa: ");
+genero = prompt("Qual é o gênero da roupa? (Masculino, Feminino, Unissex): ");
+marca = prompt("Qual é a marca da sua roupa: ");
+preco = prompt("Qual é o valor dessa roupa: ");
+cor = prompt("Qual é a cor: ");
+tamanho = prompt("Qual é o tamanho (PP, P, M, G, GG, XG): ");
+quantidade = prompt("Quantidade: ");
+novaouusada = prompt("Nova ou usada: ");
+console.log("\n");
+console.log(`Roupa Cadrastrada com sucesso!`);
+console.log("\n");
+console.log(`Nome da roupa: ${nomedaroupa}`);
+console.log(`Gênero: ${genero}`);
+console.log(`Marca: ${marca}`);
+console.log(`Preço: ${preco}`);
+console.log(`Cor: ${cor}`);
+console.log(`Tamanho: ${tamanho}`);
+console.log(`Quantidade: ${quantidade}`);
+console.log(`Nova ou usada: ${novaouusada}`);
